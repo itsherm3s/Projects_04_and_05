@@ -1,0 +1,29 @@
+Imports:
+The program imports necessary classes from the Java library:
+
+Stack: To utilize the Stack data structure.
+Scanner: To read user input.
+InputMismatchException: To handle invalid input.
+Main Method:
+The main method executes the program:
+
+It creates a Stack to store integers.
+It uses a Scanner object to read user input.
+The user is prompted to enter integers separated by spaces.
+Input Handling:
+
+The input line is read and split into tokens (individual numbers).
+Each token is parsed into an integer and pushed onto the stack.
+Sorting Logic:
+
+A temporary Stack is created to hold the sorted numbers.
+The program pops elements from the original stack and uses the temporary stack to sort them in ascending order.
+Displaying the Sorted Stack:
+
+The sorted stack is printed out, showing the numbers in order from smallest to largest.
+Error Handling:
+
+The program includes error handling for invalid inputs, displaying appropriate error messages when necessary.
+Resource Management:
+
+The scanner is closed at the end of the program to prevent resource leaks.

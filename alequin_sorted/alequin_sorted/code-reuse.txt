@@ -1,0 +1,35 @@
+Code Reuse Explanation
+
+In this SortedStack implementation, the program demonstrates 
+effective code reuse by adapting the sorting logic from the 
+earlier SortedLinkedList project. The following points highlight 
+how this adaptation maintains the original design principles while 
+ensuring a new functionality with the Stack data structure:
+
+Sorting Logic:
+The original SortedLinkedList program utilized the Collections.sort() 
+method to sort the list in ascending order. In the SortedStack, a similar
+sorting strategy is employed, but adapted to work with a Stack. The sorting 
+process involves popping elements from the original Stack and pushing them 
+onto a temporary Stack in sorted order. This adaptation maintains the core 
+logic of sorting while ensuring compatibility with the Stack data structure.
+
+Input Handling:
+The method of reading input from the user remains consistent between the two 
+implementations. Both programs prompt the user to enter integers and handle 
+parsing of input in the same manner. This shared approach simplifies the code 
+adaptation process and reinforces consistency in user interaction.
+
+Error Handling:
+The error handling mechanisms for invalid input are preserved in the new implementation. 
+By reusing the same error handling structure, the program ensures that users receive 
+appropriate feedback when they provide invalid data, enhancing the user experience.
+
+Overall Structure:
+The general structure of the program, including the use of a Scanner for input and a 
+try-catch block for error handling, mirrors the previous implementation. This consistency 
+in structure facilitates easier understanding and maintenance of the code.
+
+By reusing and adapting existing logic rather than rewriting it from scratch, 
+the SortedStack program efficiently implements the desired functionality while 
+preserving the integrity and quality of the original design.
